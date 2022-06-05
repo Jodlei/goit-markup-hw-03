@@ -51,11 +51,14 @@
     <main>
       <!--- --Еффективные решения для вашего бизнеса ---->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button secondary-hero-btn">
-          Заказать услугу
-        </button>
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-button secondary-hero-btn">
+            Заказать услугу
+          </button>
+        </div>
       </section>
+
       <!-------------- Оссобенности ----------------->
       <section class="section">
         <div class="container">
@@ -131,43 +134,55 @@
           <ul class="team-list list">
             <li class="team">
               <img
+                class="img"
                 src="./images/team/img.jpg"
                 alt="Человек в очках и красном поло"
                 width="270"
                 height="260"
               />
-              <h3 class="name">Игорь Демьяненко</h3>
-              <p lang="en" class="position">Product Designer</p>
+              <div class="team-information">
+                <h3 class="name">Игорь Демьяненко</h3>
+                <p lang="en" class="position">Product Designer</p>
+              </div>
             </li>
             <li class="team">
               <img
+                class="img"
                 src="./images/team/img1.jpg"
                 alt=":Женщина в черном костюме и очках"
                 width="270"
                 height="260"
               />
-              <h3 class="name">Ольга Репина</h3>
-              <p lang="en" class="position">Frontend Developer</p>
+              <div class="team-information">
+                <h3 class="name">Ольга Репина</h3>
+                <p lang="en" class="position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team">
               <img
+                class="img"
                 src="./images/team/img2.jpg"
                 alt="улыбающийся мужчина в рубашке"
                 width="270"
                 height="260"
               />
-              <h3 class="name">Николай Тарасов</h3>
-              <p lang="en" class="position">Marketing</p>
+              <div class="team-information">
+                <h3 class="name">Николай Тарасов</h3>
+                <p lang="en" class="position">Marketing</p>
+              </div>
             </li>
             <li class="team">
               <img
+                class="img"
                 src="./images/team/img3.jpg"
                 alt="Мужчина в черной футболке и очках"
                 width="270"
                 height="260"
               />
-              <h3 class="name">Михаил Ермаков</h3>
-              <p lang="en" class="position">UI Designer</p>
+              <div class="team-information">
+                <h3 class="name">Михаил Ермаков</h3>
+                <p lang="en" class="position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -179,7 +194,7 @@
         <a lang="en" href="./index.html" class="logo link logo-footer"
           >Web<span class="logo-footer">Studio</span>
         </a>
-        <address>
+        <address class="address-block">
           <ul class="address-list list">
             <li class="address-text item">г. Киев, пр-т Леси Украинки, 26</li>
             <li class="item">
