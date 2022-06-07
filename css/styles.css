@@ -167,8 +167,8 @@ img {
 }
 .secondary-hero-btn:hover,
 .secondary-hero-btn:focus {
-  background-color: var(--btn-background);
-  color: #188cef;
+  background-color: #188cef;
+  color: var(--basic-color-white);
 }
 /* ----------------SECTION особенности---------------- */
 .features-title {
